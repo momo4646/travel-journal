@@ -1,11 +1,9 @@
 
-export default function Header() {
+export default function App() {
     return (
         <header>
-            <nav>
-                <img className='nav-globe' src='/src/assets/globe.png' alt='globe clipart' />
-                <span>my travel journal</span>
-            </nav>
+            <img className='globe' src='/src/assets/globe.png' alt='globe clipart' />
+            <h1>my travel journal</h1>
         </header>
     )
 }
