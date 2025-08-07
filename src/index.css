@@ -28,10 +28,65 @@ header > h1 {
     font-weight: 500;
 }
 
-.entry {
-    margin: 50px 100px;
+
+
+/*journal entry styles*/
+.journal-entry {
+    margin: 50px 50px;
+}
+
+article {
+    display: flex;
+    align-items: center;
+}
+
+.main-img-container {
+    width: 125px;
+    height: 168px;
+    overflow: hidden;
+    margin-right: 15px;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+.main-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .marker {
-    width: 25px;
+    width: 15px;
+}
+
+.country {
+    margin-right: 15px;
+    font-weight: 700;
+    font-size: 0.7rem;
+}
+
+a {
+    color: rgb(164, 160, 160);
+    font-size: 0.7rem;
+}
+
+.main-description {
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.date {
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.description {
+    margin-top: 0;
+    font-size: .8rem;
+    font-weight: 500;
 }
