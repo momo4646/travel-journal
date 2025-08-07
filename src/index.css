@@ -70,12 +70,9 @@ a {
     font-size: 0.7rem;
 }
 
-.main-description {
-}
-
 h2 {
-    margin-top: 0;
-    font-size: 1.8rem;
+    margin-top: 5px;
+    font-size: 1.7rem;
     font-weight: 600;
 }
 
@@ -87,6 +84,7 @@ h2 {
 
 .description {
     margin-top: 0;
-    font-size: .8rem;
+    font-size: .6rem;
     font-weight: 500;
+    line-height: 20px;
 }
