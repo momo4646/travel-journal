@@ -1,5 +1,4 @@
-export default function Entry(props) {
-    const {place, country, date, description, img, imgAlt, googleMaps} = props
+export default function Entry({place, country, date, description, img, imgAlt, googleMaps}) {
     return(
         <article className="journal-entry">
             <div className='main-img-container'>
