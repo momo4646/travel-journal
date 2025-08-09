@@ -1,8 +1,8 @@
-export default function Entry({place, country, date, description, img, imgAlt, googleMaps}) {
+export default function Entry({place, country, date, description, img, googleMaps}) {
     return(
         <article className="journal-entry">
             <div className='main-img-container'>
-                <img className='main-img' src={img} alt={imgAlt} />
+                <img className='main-img' src={img.url} alt={img.alt} />
             </div>
             <div>
                 <img className='marker' src='/src/assets/marker.jpg' alt='location icon' />
