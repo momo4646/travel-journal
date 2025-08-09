@@ -5,12 +5,8 @@ import entries from '/src/data'
 export default function App() {
     const entryElements = entries.map(entry => (
         <Entry 
-            place={entry.place}
-            country={entry.country}
-            date={entry.date}
-            description={entry.description}
-            img={entry.img}
-            googleMaps={entry.googleMaps}
+            key={entry.id}
+            entry={entry}
         />
     ))
     return (

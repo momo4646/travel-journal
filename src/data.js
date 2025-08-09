@@ -1,5 +1,6 @@
 export default [
     {
+        id: '1', 
         place: 'Mount Fuji', 
         country:'Japan',
         date: '12 Jan, 2021 - 24 Jan, 2021',
@@ -8,6 +9,7 @@ export default [
         googleMaps: 'https://www.google.com/maps/place/Mount+Fuji/@35.360625,138.7273634,14z/data=!3m1!4b1!4m6!3m5!1s0x6019629a42fdc899:0xa6a1fcc916f3a4df!8m2!3d35.3606255!4d138.7273634!16zL20vMGNrczA?entry=ttu',
     },
     {
+        id: '2',
         place: 'Hawaii',
         country: 'USA',
         date: '24 July, 2022 - 28 July, 2022', 
@@ -16,6 +18,7 @@ export default [
         googleMaps: 'https://maps.app.goo.gl/nrwaqY2utEeSqgMj9'
     },
     {
+        id: '3',
         place: 'Burj Khalifa', 
         country: 'Dubai', 
         date: '8 August, 2023 - 15 August, 2023', 
@@ -24,6 +27,7 @@ export default [
         googleMaps: 'https://maps.app.goo.gl/RTKhmWDDohyLtCok8'
     },
     {
+        id: '4',
         place: 'Petra', 
         country: 'Jordan', 
         date: '12 July, 2024 - 12 July, 2024', 
