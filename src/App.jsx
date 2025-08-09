@@ -1,6 +1,5 @@
 import Header from '/src/components/Header'
 import Entry from '/src/components/Entry'
-import Contact from '/src/components/Contact'
 
 export default function App() {
     return (
